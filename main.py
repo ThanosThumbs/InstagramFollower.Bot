@@ -1,5 +1,9 @@
 from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium webdriver.support import expected_conditions
+import time
 
+url = 'https://www.instagram.com/login/'
 
 SIMILAR_ACCOUNT = marvel
 USERNAME = OLAKUNLEADEKOYA@ICLOUD.COM
